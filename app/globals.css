@@ -4,35 +4,29 @@
 
 @font-face {
   font-family: 'Graphik';
-  src: url('/fonts/Graphik-Light.woff2') format('woff2');
+  src: url('/fonts/Graphik-Regular.otf') format('otf');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Graphik';
-  src: url('/fonts/Graphik-Regular.woff2') format('woff2');
+  src: url('/fonts/Graphik-Regular.otf') format('otf');
   font-weight: 400;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Graphik';
-  src: url('/fonts/Graphik-Italic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-}
 
 @font-face {
   font-family: 'Graphik';
-  src: url('/fonts/Graphik-Semibold.woff2') format('woff2');
+  src: url('/fonts/Graphik-Regular.otf') format('otf');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Graphik-XCondensed';
-  src: url('/fonts/Graphik-XCondensed-Bold.woff2') format('woff2');
+  src: url('/fonts/Graphik-XCondensed-Bold.otf') format('otf');
   font-weight: 700;
   font-style: normal;
 }
@@ -254,23 +248,23 @@
     @apply font-font-weight-medium leading-typography-base-sizes-small-line-height text-typography-base-sizes-small-font-size text-muted-foreground hover:!bg-transparent;
   }
   .pageTitle {
-    @apply font-graphik-xcondensed text-2xl font-bold;
+    @apply text-2xl font-bold;
   }
   
   .pageDescription {
-    @apply font-graphik text-sm font-normal;
+    @apply text-sm font-normal;
   }
   
   .tableHead {
-    @apply font-graphik font-medium text-sm text-muted-foreground hover:!bg-transparent;
+    @apply font-medium text-sm text-muted-foreground hover:!bg-transparent;
   }
 
   .paragraph {
-    @apply font-graphik text-base font-light;
+    @apply f text-base font-light;
   }
 
   .subheading {
-    @apply font-graphik text-base font-normal;
+    @apply  text-base font-normal;
   }
 }
 
@@ -279,7 +273,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-graphik font-light;
+    @apply bg-background text-foreground font-light;
   }
 }
 
