@@ -8,7 +8,7 @@
     {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///Users/stephen/Github/gaply-gapmap/gapmap-report-template/app/page.tsx"],"sourcesContent":["import SideMenu from \"@/components/SideMenu\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n  <SideMenu />\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAGe,SAAS;IACtB,qBACA,8OAAC,uHAAA,CAAA,UAAQ;;;;;AAEX"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///Users/stephen/Github/gaply-gapmap/gapmap-report-template/app/page.tsx"],"sourcesContent":["import SideMenu from \"@/components/SideMenu\";\n\nexport default function Home() {\n  return (\n  <SideMenu />\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACA,8OAAC,uHAAA,CAAA,UAAQ;;;;;AAEX"}},
     {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
